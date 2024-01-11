@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <!--CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/617b7826ec.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!--HEADER-->
+    <header>
+        <nav class="navbar-container">
+            <img class="logo" src="../img/logo.png" alt="logo">
+            <ul class="navbar">
+                <li class="navbar-item"><a href="../index.html">Inicio</a></li>
+                <li class="navbar-item"><a href="./about.html">Info Personal</a></li>
+                <li class="navbar-item"><a href="./discografia.html">Discografía</a></li>
+                <li class="navbar-item"><a href="./tour.html">Tour</a></li>
+                <li class="navbar-item"><a href="./merch.html">Merch</a></li>
+                <li class="navbar-item"><a href="./gallery.html">Gallery</a></li>
+                <li class="navbar-item"><a class="active" href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!---------->
+
+
+    <main class="content-contacto">
+        <section class="contact-wrapper">
+            <div class="contact-form">
+                <h2>Contacto</h2>
+                <form action="">
+                    <div class="infopersonalcontacto">
+                        <p>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre">
+                        </p>
+                        <p>
+                            <label for="apellido">Apellido</label>
+                            <input type="text" name="apellido">
+                        </p>
+                        <p>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="">
+                        </p>
+                        <p>
+                            <label for="telefono">Telefóno</label>
+                            <input type="tel" name="telefono" id="">
+                        </p>
+                    </div>
+                    <p class="block">
+                        <label for="consulta">Tipo de consulta</label>
+                        <select class="Consulta" name="consulta">
+                            <option value="" disabled selected>Seleccione su tipo de consulta</option>
+                            <option value="oferta">Oferta de concierto</option>
+                            <option value="entrevista">Entrevista</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </p>
+                    <p class="block">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea class="Mensaje" name="mensaje" rows="3"></textarea>
+                    </p>
+                    <p class="block">
+                        <label for="newsletter">¿Desea recibir el Newsletter?</label>
+                        <input type="checkbox" name="newsletter" id="">
+                    </p>
+                    <p class="block">
+                        <button class="contact-boton" type="reset">Limpiar</button>
+                        <button class="contact-boton" type="submit">Enviar</button>
+                    </p>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    <!--FOOTER-->
+    <footer class="footer">
+        <div class="footer-navbar">
+            <a href="../index.html">Inicio</a>
+            <a href="./about.html">Info Personal</a>
+            <a href="./discografia.html">Discografía</a>
+            <a href="./tour.html">Tour</a>
+            <a href="./merch.html">Merch</a>
+            <a href="./gallery.html">Gallery</a>
+            <a href="./contacto.html">Contacto</a>
+        </div>
+
+        <div class="footer-redes">
+            <a class="redes-icon" href="https://www.travisscott.com/" target="_blank"><i class="fa-solid fa-house"></i></a>   
+            <a class="redes-icon" href="https://twitter.com/trvisXX" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a class="redes-icon" href="https://www.instagram.com/travisscott/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+
+        <div class="footer-copy">
+            <p>&copy; 2023 TRAVIS SCOTT & CACTUS JACK. Todos los derechos reservados. Diseñado por Gaspar Saenz Valiente.</p>
+        </div>
+    </footer>
+    <!---------->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
