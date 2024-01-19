@@ -1,0 +1,38 @@
+/***************
+      TOUR
+***************/
+
+.main-tour{
+    text-align: center;
+    padding: 20px;
+
+    h2{
+        padding: 2rem;
+    }
+
+    .tour-dates{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .concert-date {
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 8px;
+            width: 80%; 
+            margin-bottom: 10px;
+
+            .tour-ul{
+                display: flex;
+                justify-content: space-between;
+                list-style: none;
+            }
+        }
+
+        .concert-date.header {
+            background-color: #333;
+            color: white;
+        }
+    }
+}
+

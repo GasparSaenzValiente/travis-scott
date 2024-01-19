@@ -1,0 +1,49 @@
+/***************
+  DISCOGRAFIA
+***************/
+
+.album-list {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+    .album-container {
+        padding: 1rem;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        .album-img {
+            width: 11rem;
+            aspect-ratio: 1/1;
+        }
+
+        .album-info {
+            text-align: center;
+
+            .album-parrafo {
+                padding-bottom: 1rem;
+            }
+
+            .album-title {
+                font-size: 1.5rem;
+                padding: 1rem;
+            }
+            
+            .album-listen-container {
+                display: flex;
+                justify-content: center;
+                gap: 1.8rem;
+
+                .fa-solid,
+                .fa-brands{
+                    color: black;
+                }
+            }
+            
+        }
+    }
+}
+
+.discografiaT{
+    background-color: #9e9e9d;
+}

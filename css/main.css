@@ -1,0 +1,280 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/***************
+    NAV BAR
+***************/
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #c1c0c0;
+}
+
+.navbar {
+  display: flex;
+  padding: 1rem;
+  -moz-column-gap: 1.8rem;
+       column-gap: 1.8rem;
+  flex-wrap: wrap;
+  row-gap: 0.1rem;
+  list-style: none;
+}
+
+.logo {
+  height: 3.5rem;
+}
+
+.navbar-item a {
+  color: black;
+  transition: 0.4s ease-in-out;
+}
+
+.navbar-item a:hover {
+  color: #d1ac82;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+/***************
+    FOOTER
+***************/
+.footer {
+  background-color: rgb(63, 62, 62);
+}
+.footer .footer-navbar {
+  display: flex;
+  gap: 1rem;
+  padding: 0.7rem;
+  justify-content: center;
+}
+.footer .footer-navbar .a {
+  text-decoration: none;
+  color: black;
+}
+.footer .footer-redes {
+  display: flex;
+  align-items: center;
+  padding-bottom: 0.7rem;
+  justify-content: center;
+  gap: 3rem;
+}
+.footer .footer-redes .redes-icon {
+  color: black;
+}
+.footer .footer-copy p {
+  color: black;
+  padding-bottom: 0.5rem;
+  text-align: center;
+}
+
+/**************
+      MERCH
+***************/
+.tshirt {
+  width: 10rem;
+  aspect-ratio: 1/1;
+}
+
+/***************
+  INFO PERSONAL
+***************/
+.img-about {
+  width: 10rem;
+}
+
+.carousel-item {
+  width: 6rem;
+}
+
+.d-block .w-100 {
+  width: 4rem;
+}
+
+/***************
+    CONTACTO
+***************/
+.content-contacto {
+  background-color: #c1c0c0;
+  padding: 2rem;
+}
+.content-contacto .contact-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.content-contacto .contact-wrapper .contact-form {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.content-contacto .contact-wrapper .contact-form h2 {
+  padding-bottom: 1rem;
+  color: #5a3914;
+}
+.content-contacto .contact-wrapper .contact-form form .infopersonalcontacto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.content-contacto .contact-wrapper .contact-form form .block {
+  width: 100%;
+}
+.content-contacto .contact-wrapper .contact-form form .block textarea {
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  resize: vertical;
+}
+.content-contacto .contact-wrapper .contact-form form .block button {
+  background-color: #42382d;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  margin-right: 10px;
+}
+.content-contacto .contact-wrapper .contact-form form .block button:hover {
+  background-color: #5a3914;
+}
+
+/***************
+  DISCOGRAFIA
+***************/
+.album-list {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.album-list .album-container {
+  padding: 1rem;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.album-list .album-container .album-img {
+  width: 11rem;
+  aspect-ratio: 1/1;
+}
+.album-list .album-container .album-info {
+  text-align: center;
+}
+.album-list .album-container .album-info .album-parrafo {
+  padding-bottom: 1rem;
+}
+.album-list .album-container .album-info .album-title {
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+.album-list .album-container .album-info .album-listen-container {
+  display: flex;
+  justify-content: center;
+  gap: 1.8rem;
+}
+.album-list .album-container .album-info .album-listen-container .fa-solid,
+.album-list .album-container .album-info .album-listen-container .fa-brands {
+  color: black;
+}
+
+.discografiaT {
+  background-color: #9e9e9d;
+}
+
+/***************
+    GALERIA
+***************/
+.gallery-img-x {
+  width: 100%;
+}
+
+/***************
+  INICIO
+***************/
+.main {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  aspect-ratio: 1/1;
+  background-image: url("../img/fondo.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.main .overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.main .overlay h1 {
+  font-size: 2.8rem;
+  padding-bottom: 2rem;
+  color: rgb(22, 22, 22);
+}
+.main .overlay p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  text-wrap: wrap;
+  color: rgb(48, 48, 48);
+}
+.main .overlay .info p {
+  text-align: justify;
+}
+.main .overlay .info .cta-button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: #42382d;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+.main .overlay .info .cta-button:hover {
+  background-color: #5a3914;
+}
+.main .overlay .logo-cactus {
+  width: 11.5rem;
+  aspect-ratio: 1/1;
+}
+
+/***************
+      TOUR
+***************/
+.main-tour {
+  text-align: center;
+  padding: 20px;
+}
+.main-tour h2 {
+  padding: 2rem;
+}
+.main-tour .tour-dates {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-tour .tour-dates .concert-date {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  width: 80%;
+  margin-bottom: 10px;
+}
+.main-tour .tour-dates .concert-date .tour-ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.main-tour .tour-dates .concert-date.header {
+  background-color: #333;
+  color: white;
+}/*# sourceMappingURL=main.css.map */

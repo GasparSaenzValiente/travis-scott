@@ -1,0 +1,35 @@
+/***************
+    NAV BAR
+***************/
+
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #c1c0c0;
+}
+
+.navbar{
+    display: flex;
+    padding: 1rem;
+    column-gap: 1.8rem;
+    flex-wrap: wrap;
+    row-gap: 0.1rem;
+    list-style: none;
+}
+.logo{
+    height: 3.5rem;
+}
+
+.navbar-item a{
+    color: black;
+    transition: 0.4s ease-in-out;
+}
+
+.navbar-item a:hover{
+    color: #d1ac82;
+}
+
+.active{
+    text-decoration: underline;
+}
