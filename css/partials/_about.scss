@@ -13,3 +13,44 @@
 .d-block .w-100{
     width: 4rem;
 }
+
+// Estilos generales
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+// Estilos del contenido principal
+main {
+    padding: 20px;
+    section {
+        max-width: 800px;
+        margin: 0 auto;
+        div {
+            margin-bottom: 20px;
+            img.img-about {
+                max-width: 100%;
+                height: auto;
+                border-radius: 8px; // Añade bordes redondeados a las imágenes
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); // Añade sombra a las imágenes
+            }
+            p {
+                line-height: 1.6;
+            }
+        }
+        // Estilos del carrusel
+        #carouselExampleIndicators {
+            margin-top: 20px;
+            .carousel-inner {
+                .carousel-item {
+                    img {
+                        width: 100%;
+                        height: auto;
+                        border-radius: 8px; // Añade bordes redondeados a las imágenes del carrusel
+                    }
+                }
+            }
+        }
+    }
+}
