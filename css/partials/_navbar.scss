@@ -2,21 +2,10 @@
     NAV BAR
 ***************/
 
-.navbar-container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #c1c0c0;
+#navbarNav{
+    justify-content: end;
 }
 
-.navbar{
-    display: flex;
-    padding: 1rem;
-    column-gap: 1.8rem;
-    flex-wrap: wrap;
-    row-gap: 0.1rem;
-    list-style: none;
-}
 .logo{
     height: 3.5rem;
 }

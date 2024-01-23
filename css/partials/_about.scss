@@ -27,27 +27,36 @@ main {
     section {
         max-width: 800px;
         margin: 0 auto;
-        div {
-            margin-bottom: 20px;
-            img.img-about {
-                max-width: 100%;
-                height: auto;
-                border-radius: 8px; // Añade bordes redondeados a las imágenes
-                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); // Añade sombra a las imágenes
+
+        .foto-texto-info{
+            display: flex;
+
+            img{
+                border-radius: 13px;
             }
-            p {
-                line-height: 1.6;
+
+            p{
+                padding-left: 1rem;
             }
         }
-        // Estilos del carrusel
-        #carouselExampleIndicators {
-            margin-top: 20px;
-            .carousel-inner {
-                .carousel-item {
-                    img {
-                        width: 100%;
-                        height: auto;
-                        border-radius: 8px; // Añade bordes redondeados a las imágenes del carrusel
+
+        .segdiv{
+            padding-top: 0.5rem;
+        }
+
+        .tercerdiv{
+
+            .influencias{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                
+                .influencia{
+                    text-align: center;
+                    img{
+                        width: 10rem;
+                        aspect-ratio: 1/1.25;
+                        border-radius: 3px;
+                        padding-bottom: 0.4rem;
                     }
                 }
             }

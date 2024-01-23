@@ -7,21 +7,8 @@
 /***************
     NAV BAR
 ***************/
-.navbar-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #c1c0c0;
-}
-
-.navbar {
-  display: flex;
-  padding: 1rem;
-  -moz-column-gap: 1.8rem;
-       column-gap: 1.8rem;
-  flex-wrap: wrap;
-  row-gap: 0.1rem;
-  list-style: none;
+#navbarNav {
+  justify-content: end;
 }
 
 .logo {
@@ -109,25 +96,30 @@ main section {
   max-width: 800px;
   margin: 0 auto;
 }
-main section div {
-  margin-bottom: 20px;
+main section .foto-texto-info {
+  display: flex;
 }
-main section div img.img-about {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+main section .foto-texto-info img {
+  border-radius: 13px;
 }
-main section div p {
-  line-height: 1.6;
+main section .foto-texto-info p {
+  padding-left: 1rem;
 }
-main section #carouselExampleIndicators {
-  margin-top: 20px;
+main section .segdiv {
+  padding-top: 0.5rem;
 }
-main section #carouselExampleIndicators .carousel-inner .carousel-item img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
+main section .tercerdiv .influencias {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+main section .tercerdiv .influencias .influencia {
+  text-align: center;
+}
+main section .tercerdiv .influencias .influencia img {
+  width: 10rem;
+  aspect-ratio: 1/1.25;
+  border-radius: 3px;
+  padding-bottom: 0.4rem;
 }
 
 /***************
@@ -202,11 +194,13 @@ main section #carouselExampleIndicators .carousel-inner .carousel-item img {
   text-align: center;
 }
 .album-list .album-container .album-info .album-parrafo {
-  padding-bottom: 1rem;
+  padding-bottom: 0.2rem;
+}
+.album-list .album-container .album-info .publicacion {
+  padding-bottom: 0.5rem;
 }
 .album-list .album-container .album-info .album-title {
   font-size: 1.5rem;
-  padding: 1rem;
 }
 .album-list .album-container .album-info .album-listen-container {
   display: flex;
@@ -225,6 +219,10 @@ main section #carouselExampleIndicators .carousel-inner .carousel-item img {
 /***************
     GALERIA
 ***************/
+.gallery {
+  background-color: #9e9e9d;
+}
+
 .gallery-img-x {
   width: 100%;
 }
