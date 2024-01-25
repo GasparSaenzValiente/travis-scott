@@ -7,6 +7,10 @@
 /***************
     NAV BAR
 ***************/
+.navbar {
+  background-color: #d1ac82;
+}
+
 #navbarNav {
   justify-content: end;
 }
@@ -101,6 +105,8 @@ main section .foto-texto-info {
 }
 main section .foto-texto-info img {
   border-radius: 13px;
+  aspect-ratio: 1/1;
+  width: 13rem;
 }
 main section .foto-texto-info p {
   padding-left: 1rem;
@@ -182,12 +188,9 @@ main section .tercerdiv .influencias .influencia img {
 }
 .album-list .album-container {
   padding: 1rem;
-  display: grid;
-  grid-template-rows: 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
 }
 .album-list .album-container .album-img {
-  width: 11rem;
+  width: 13rem;
   aspect-ratio: 1/1;
 }
 .album-list .album-container .album-info {
@@ -252,11 +255,47 @@ main section .tercerdiv .influencias .influencia img {
   padding-bottom: 2rem;
   color: rgb(22, 22, 22);
 }
+@media (max-width: 392px) {
+  .main .overlay h1 {
+    font-size: 1.5rem;
+    padding-bottom: 0.7rem;
+  }
+}
+@media (min-width: 392px) and (max-width: 467px) {
+  .main .overlay h1 {
+    font-size: 1.7rem;
+    padding-bottom: 1rem;
+  }
+}
+@media (min-width: 467px) and (max-width: 646px) {
+  .main .overlay h1 {
+    font-size: 1.85rem;
+    padding-bottom: 1rem;
+  }
+}
 .main .overlay p {
   font-size: 1.2rem;
   margin-bottom: 1.5rem;
   text-wrap: wrap;
   color: rgb(48, 48, 48);
+}
+@media (max-width: 392px) {
+  .main .overlay p {
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+  }
+}
+@media (min-width: 392px) and (max-width: 467px) {
+  .main .overlay p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+}
+@media (min-width: 467px) and (max-width: 646px) {
+  .main .overlay p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+  }
 }
 .main .overlay .info p {
   text-align: justify;
@@ -274,9 +313,21 @@ main section .tercerdiv .influencias .influencia img {
 .main .overlay .info .cta-button:hover {
   background-color: #5a3914;
 }
+@media (max-width: 768px) {
+  .main .overlay .info .cta-button {
+    padding: 0.8rem 1.5rem;
+    font-size: 0.9rem;
+  }
+}
 .main .overlay .logo-cactus {
   width: 11.5rem;
   aspect-ratio: 1/1;
+}
+@media (max-width: 768px) {
+  .main .overlay .logo-cactus {
+    width: 8rem;
+    padding-top: 1rem;
+  }
 }
 
 /***************

@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discografia</title>
+    <meta name="description" content="Explora la evolución musical de Travis Scott a través de su discografía. Desde los ritmos vibrantes de 'Rodeo' hasta las epopeyas sonoras de 'Astroworld', descubre cada capítulo de su viaje musical.">
+    <meta name="keywords" content="Travis Scott, discografía, álbumes, canciones, música, rap">
     <!--BOOTSRAP-->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <!--AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--CSS-->
     <link rel="stylesheet" href="../css/main.css">
     <!--Font Awesome-->
@@ -22,9 +26,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link active" href="../index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
                         <li class="nav-item"><a class="nav-link" href="./about.html">Info Personal</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./discografia.html">Discografía</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="./discografia.html">Discografía</a></li>
                         <li class="nav-item"><a class="nav-link" href="./tour.html">Tour</a></li>
                         <li class="nav-item"><a class="nav-link" href="./merch.html">Merch</a></li>
                         <li class="nav-item"><a class="nav-link" href="./gallery.html">Gallery</a></li>
@@ -35,87 +39,135 @@
         </nav>
     </header>
     <!---------->
-    
+
     <main class="discografiaT">
         <ul class="album-list">
-            <li class="album-container">
-                <img class="album-img img1" src="../img/rodeo.jpg" alt="Rodeo">
-                <div class="album-info">
-                    <h4 class="album-title">Rodeo</h4>
-                    <p class="publicacion">04/09/2015</p>
-                    <p class="album-parrafo">En su álbum debut, Travis Scott desata un torbellino de sonidos trap y electrónicos, fusionando lo experimental con lo accesible. "Rodeo" es un viaje sonoro que se aventura por paisajes eclécticos, desde la euforia de "Antidote" hasta la oscuridad introspectiva de "90210".</p>
+            <div class="album-container row">
+                <div class="col-md-4" data-aos="fade-right" data-aos-duration="1200">
+                    <img class="album-img img1" src="../img/rodeo.jpg" alt="Rodeo">
+                </div>
+                <div class="album-info col-md-8">
+                    <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="50" data-aos-offset="0">
+                        <h4 class="album-title">Rodeo</h4>
+                    </div>
+                    <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="350" data-aos-offset="0">
+                        <p class="publicacion">04/09/2015</p>
+                    </div>
+                    <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="700" data-aos-offset="0">
+                        <p class="album-parrafo">En su álbum debut, Travis Scott desata un torbellino de sonidos trap y electrónicos, fusionando lo experimental con lo accesible. "Rodeo" es un viaje sonoro que se aventura por paisajes eclécticos, desde la euforia de "Antidote" hasta la oscuridad introspectiva de "90210".</p>
+                    </div>
                     <ul class="album-listen-container">
-                        <li class="album-listen-item"><a target="_blank" href="https://www.youtube.com/playlist?list=OLAK5uy_mpTXT8bcs7ddIHu4TU6Yyf-wd4sL4AJ0M"><i class="fa-brands fa-youtube"></i></a></li>
-                        <li class="album-listen-item"><a target="_blank" href="https://open.spotify.com/intl-es/album/4PWBTB6NYSKQwfo79I3prg?autoplay=true"><i class="fa-brands fa-spotify"></i></a></li>
-                        <li class="album-listen-item"><a target="_blank" href="https://music.apple.com/ar/album/rodeo/1456176981"><i class="fa-solid fa-music"></i></a></li>
+                        <li class="album-listen-item"><a target="_blank" href="https://www.youtube.com/playlist?list=OLAK5uy_mpTXT8bcs7ddIHu4TU6Yyf-wd4sL4AJ0M"><div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="1000" data-aos-offset="0"><i class="fa-brands fa-youtube"></i></div></a></li>
+                        <li class="album-listen-item"><a target="_blank" href="https://open.spotify.com/intl-es/album/4PWBTB6NYSKQwfo79I3prg?autoplay=true"><div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="1000" data-aos-offset="0"><i class="fa-brands fa-spotify"></i></div></a></li>
+                        <li class="album-listen-item"><a target="_blank" href="https://music.apple.com/ar/album/rodeo/1456176981"><div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="1000" data-aos-offset="0"><i class="fa-solid fa-music"></i></div></a></li>
                     </ul>
                 </div>
-            </li>
-            <li class="album-container">
-                <img class="album-img img2" src="../img/Travis_Scott_-_Birds_in_the_Trap_Sing_McKnight.png" alt="Birds in the Trap Sing McKnight">
-                <div class="album-info album2">
-                    <h4 class="album-title">Birds in the Trap Sing McKnight</h4>
-                    <p class="publicacion">02/09/2016</p>
-                    <p class="album-parrafo">Travis Scott sumerge a los oyentes en una travesía nocturna con "Birds in the Trap Sing McKnight". Con una atmósfera más sombría, el álbum fusiona el trap con toques de R&B, destacando gemas como "Goosebumps" y "Pick Up the Phone".</p>
-                    <ul class="album-listen-container">
-                        <li class="album-listen-item"><a target="_blank" href="https://www.youtube.com/playlist?list=PLRtsSkWsbD51ikP0X9K8TMSvwCrbZWGXQ"><i class="fa-brands fa-youtube"></i></a></li>
-                        <li class="album-listen-item"><a target="_blank" href="https://open.spotify.com/intl-es/album/3BXMEMy2oP1f7bp3YjDoR9?autoplay=true"><i class="fa-brands fa-spotify"></i></a></li>
-                        <li class="album-listen-item"><a target="_blank" href="https://music.apple.com/ar/album/birds-in-the-trap-sing-mcknight/1150135681"><i class="fa-solid fa-music"></i></a></li>
+            </div>
+            <div class="album-container row">
+                <div class="col-md-4" data-aos="fade-right" data-aos-duration="1200">
+                    <img class="album-img img2" src="../img/Travis_Scott_-_Birds_in_the_Trap_Sing_McKnight.png" alt="Birds in the Trap Sing McKnight">
+                </div>
+                <div class="album-info col-md-8 album2">
+                    <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="50" data-aos-offset="0">
+                        <h4 class="album-title">Birds in the Trap Sing McKnight</h4>
+                    </div>
+                    <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="350" data-aos-offset="0">
+                        <p class="publicacion">02/09/2016</p>
+                    </div>
+                    <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="700" data-aos-offset="0">    
+                        <p class="album-parrafo">Travis Scott sumerge a los oyentes en una travesía nocturna con "Birds in the Trap Sing McKnight". Con una atmósfera más sombría, el álbum fusiona el trap con toques de R&B, destacando gemas como "Goosebumps" y "Pick Up the Phone".</p>
+                    </div>
+                        <ul class="album-listen-container">
+                        <li class="album-listen-item"><a target="_blank" href="https://www.youtube.com/playlist?list=PLRtsSkWsbD51ikP0X9K8TMSvwCrbZWGXQ"><div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="1000" data-aos-offset="0"><i class="fa-brands fa-youtube"></i></div></a></li>
+                        <li class="album-listen-item"><a target="_blank" href="https://open.spotify.com/intl-es/album/3BXMEMy2oP1f7bp3YjDoR9?autoplay=true"><div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="1000" data-aos-offset="0"><i class="fa-brands fa-spotify"></i></div></a></li>
+                        <li class="album-listen-item"><a target="_blank" href="https://music.apple.com/ar/album/birds-in-the-trap-sing-mcknight/1150135681"><div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="1000" data-aos-offset="0"><i class="fa-solid fa-music"></i></div></a></li>
                     </ul>
                 </div>
-            </li>
-            <li class="album-container">
-                <img class="album-img img1" src="../img/Huncho Jack, Jack Huncho.jpg" alt="Huncho Jack, Jack Huncho">
-                <div class="album-info">
-                    <h4 class="album-title">Huncho Jack, Jack Huncho</h4>
-                    <p class="publicacion">21/12/2017</p>
-                    <p class="album-parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, nihil quibusdam nam delectus sit quidem suscipit quo veritatis dolorem corrupti, aperiam expedita doloribus ipsa maiores sequi corporis quis necessitatibus itaque.</p>
-                    <ul class="album-listen-container">
-                        <li class="album-listen-item"><a target="_blank" href="https://www.youtube.com/playlist?list=PLxAEGETseE4XmPgAMdFbXBFkN-iZmyUtQ"><i class="fa-brands fa-youtube"></i></a></li>
-                        <li class="album-listen-item"><a target="_blank" href="https://open.spotify.com/intl-es/album/6FED8aeieEnUWwQqAO9zT1?autoplay=true"><i class="fa-brands fa-spotify"></i></a></li>
-                        <li class="album-listen-item"><a target="_blank" href="https://music.apple.com/ar/album/huncho-jack-jack-huncho/1440902652"><i class="fa-solid fa-music"></i></a></li>
+            </div>
+            <div class="album-container row">
+                <div class="col-md-4" data-aos="fade-right" data-aos-duration="1200">
+                    <img class="album-img img1" src="../img/Huncho Jack, Jack Huncho.jpg" alt="Huncho Jack, Jack Huncho">
+                </div>
+                <div class="album-info col-md-8">
+                    <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="50" data-aos-offset="0">
+                        <h4 class="album-title">Huncho Jack, Jack Huncho</h4>
+                    </div>
+                    <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="350" data-aos-offset="0">
+                        <p class="publicacion">21/12/2017</p>
+                    </div>
+                    <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="700" data-aos-offset="0">    
+                        <p class="album-parrafo">Este álbum colaborativo entre Travis Scott y Quavo, miembro de Migos, fusiona sus estilos distintivos en un proyecto conjunto. Con ritmos pegajosos y producciones vibrantes, el álbum presenta colaboraciones sólidas como "Modern Slavery" y "Saint Laurent Mask". "Huncho Jack, Jack Huncho" ofrece una mezcla de trap melódico y letras extravagantes que reflejan la química creativa entre ambos artistas.</p>
+                    </div>
+                        <ul class="album-listen-container">
+                        <li class="album-listen-item"><a target="_blank" href="https://www.youtube.com/playlist?list=PLxAEGETseE4XmPgAMdFbXBFkN-iZmyUtQ"><div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="1000" data-aos-offset="0"><i class="fa-brands fa-youtube"></i></div></a></li>
+                        <li class="album-listen-item"><a target="_blank" href="https://open.spotify.com/intl-es/album/6FED8aeieEnUWwQqAO9zT1?autoplay=true"><div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="1000" data-aos-offset="0"><i class="fa-brands fa-spotify"></i></div></a></li>
+                        <li class="album-listen-item"><a target="_blank" href="https://music.apple.com/ar/album/huncho-jack-jack-huncho/1440902652"><div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="1000" data-aos-offset="0"><i class="fa-solid fa-music"></i></div></a></li>
                     </ul>
                 </div>
-            </li>
-            <li class="album-container">
-                <img class="album-img img2" src="../img/Astroworld_by_Travis_Scott.jpg" alt="ASTROWORLD">
-                <div class="album-info album2">
-                    <h4 class="album-title">ASTROWORLD</h4>
-                    <p class="publicacion">03/08/2018</p>
-                    <p class="album-parrafo"> En su obra maestra, Travis Scott construye un parque de diversiones sonoro con "Astroworld". La producción magnífica y los ritmos psicodélicos llevan a los oyentes a una montaña rusa de emociones, con momentos épicos como "SICKO MODE" y la exuberancia de "Stargazing".</p>
-                    <ul class="album-listen-container">
-                        <li class="album-listen-item"><a target="_blank" href="https://www.youtube.com/playlist?list=PL9tY0BWXOZFvdeHbEJr7Wiztcue35IStT"><i class="fa-brands fa-youtube"></i></a></li>
-                        <li class="album-listen-item"><a target="_blank" href="https://open.spotify.com/intl-es/album/41GuZcammIkupMPKH2OJ6I?autoplay=true"><i class="fa-brands fa-spotify"></i></a></li>
-                        <li class="album-listen-item"><a target="_blank" href="https://music.apple.com/ar/album/astroworld/1421241217"><i class="fa-solid fa-music"></i></a></li>
+            </div>
+            <div class="album-container row">
+                <div class="col-md-4" data-aos="fade-right" data-aos-duration="1200">
+                    <img class="album-img img2" src="../img/Astroworld_by_Travis_Scott.jpg" alt="ASTROWORLD">
+                </div>
+                <div class="album-info col-md-8 album2">
+                    <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="50" data-aos-offset="0">
+                        <h4 class="album-title">ASTROWORLD</h4>
+                    </div>
+                    <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="350" data-aos-offset="0">
+                        <p class="publicacion">03/08/2018</p>
+                    </div>
+                    <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="700" data-aos-offset="0">    
+                        <p class="album-parrafo"> En su obra maestra, Travis Scott construye un parque de diversiones sonoro con "Astroworld". La producción magnífica y los ritmos psicodélicos llevan a los oyentes a una montaña rusa de emociones, con momentos épicos como "SICKO MODE" y la exuberancia de "Stargazing".</p>
+                    </div>
+                        <ul class="album-listen-container">
+                        <li class="album-listen-item"><a target="_blank" href="https://www.youtube.com/playlist?list=PL9tY0BWXOZFvdeHbEJr7Wiztcue35IStT"><div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="1000" data-aos-offset="0"><i class="fa-brands fa-youtube"></i></div></a></li>
+                        <li class="album-listen-item"><a target="_blank" href="https://open.spotify.com/intl-es/album/41GuZcammIkupMPKH2OJ6I?autoplay=true"><div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="1000" data-aos-offset="0"><i class="fa-brands fa-spotify"></i></div></a></li>
+                        <li class="album-listen-item"><a target="_blank" href="https://music.apple.com/ar/album/astroworld/1421241217"><div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="1000" data-aos-offset="0"><i class="fa-solid fa-music"></i></div></a></li>
                     </ul>
                 </div>
-            </li>
-            <li class="album-container">
-                <img class="album-img img1" src="../img/JackBoys_-_JackBoys.png" alt="JACKBOYS">
-                <div class="album-info">
-                    <h4 class="album-title">JACKBOYS</h4>
-                    <p class="publicacion">27/12/2019</p>
-                    <p class="album-parrafo">Como líder del colectivo Cactus Jack, Travis Scott lidera el proyecto colaborativo "JackBoys". El álbum presenta un crisol de estilos trap y hip-hop, con colaboraciones vibrantes que incluyen "GANG GANG" y "OUT WEST".</p>
-                    <ul class="album-listen-container">
-                        <li class="album-listen-item"><a target="_blank" href="https://www.youtube.com/playlist?list=OLAK5uy_niRhloJWXiq5b2d7BQ7lGSdl9MESqmibU"><i class="fa-brands fa-youtube"></i></a></li>
-                        <li class="album-listen-item"><a target="_blank" href="https://open.spotify.com/intl-es/album/1Sf8GsXG32t0jNrX11xqWx?autoplay=true"><i class="fa-brands fa-spotify"></i></a></li>
-                        <li class="album-listen-item"><a target="_blank" href="https://music.apple.com/ar/album/jackboys/1492785997"><i class="fa-solid fa-music"></i></a></li>
+            </div>
+            <div class="album-container row">
+                <div class="col-md-4" data-aos="fade-right" data-aos-duration="1200">
+                    <img class="album-img img1" src="../img/JackBoys_-_JackBoys.png" alt="JACKBOYS">
+                </div>
+                <div class="album-info col-md-8">
+                    <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="50" data-aos-offset="0">
+                        <h4 class="album-title">JACKBOYS</h4>
+                    </div>
+                    <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="350" data-aos-offset="0">
+                        <p class="publicacion">27/12/2019</p>
+                    </div>
+                    <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="700" data-aos-offset="0">    
+                        <p class="album-parrafo">Como líder del colectivo Cactus Jack, Travis Scott lidera el proyecto colaborativo "JackBoys". El álbum presenta un crisol de estilos trap y hip-hop, con colaboraciones vibrantes que incluyen "GANG GANG" y "OUT WEST".</p>
+                    </div>
+                        <ul class="album-listen-container">
+                        <li class="album-listen-item"><a target="_blank" href="https://www.youtube.com/playlist?list=OLAK5uy_niRhloJWXiq5b2d7BQ7lGSdl9MESqmibU"><div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="1000" data-aos-offset="0"><i class="fa-brands fa-youtube"></i></div></a></li>
+                        <li class="album-listen-item"><a target="_blank" href="https://open.spotify.com/intl-es/album/1Sf8GsXG32t0jNrX11xqWx?autoplay=true"><div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="1000" data-aos-offset="0"><i class="fa-brands fa-spotify"></i></div></a></li>
+                        <li class="album-listen-item"><a target="_blank" href="https://music.apple.com/ar/album/jackboys/1492785997"><div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="1000" data-aos-offset="0"><i class="fa-solid fa-music"></i></div></a></li>
                     </ul>
                 </div>
-            </li>
-            <li class="album-container">
-                <img class="album-img img2" src="../img/Travis_Scott_-_Utopia.png" alt="UTOPIA">
-                <div class="album-info album2">
-                    <h4 class="album-title">UTOPIA</h4>
-                    <p class="publicacion">28/07/2023</p>
-                    <p class="album-parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, nihil quibusdam nam delectus sit quidem suscipit quo veritatis dolorem corrupti, aperiam expedita doloribus ipsa maiores sequi corporis quis necessitatibus itaque.</p>
-                    <ul class="album-listen-container">
-                        <li class="album-listen-item"><a target="_blank" href="https://www.youtube.com/playlist?list=PLKe-Zuux9p9tJFGuAUCajji8ginGTnN2b"><i class="fa-brands fa-youtube"></i></a></li>
-                        <li class="album-listen-item"><a target="_blank" href="https://open.spotify.com/intl-es/album/18NOKLkZETa4sWwLMIm0UZ?autoplay=true"><i class="fa-brands fa-spotify"></i></a></li>
-                        <li class="album-listen-item"><a target="_blank" href="https://music.apple.com/ar/album/utopia/1699712635"><i class="fa-solid fa-music"></i></a></li>
+            </div>
+            <div class="album-container row">
+                <div class="col-md-4" data-aos="fade-right" data-aos-duration="1200">
+                    <img class="album-img img2" src="../img/Travis_Scott_-_Utopia.png" alt="UTOPIA">
+                </div>
+                <div class="album-info col-md-8 album2">
+                    <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="50" data-aos-offset="0">
+                        <h4 class="album-title">UTOPIA</h4>
+                    </div>
+                    <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="350" data-aos-offset="0">
+                        <p class="publicacion">28/07/2023</p>
+                    </div>
+                    <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="700" data-aos-offset="0">    
+                        <p class="album-parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, nihil quibusdam nam delectus sit quidem suscipit quo veritatis dolorem corrupti, aperiam expedita doloribus ipsa maiores sequi corporis quis necessitatibus itaque.</p>
+                    </div>
+                        <ul class="album-listen-container">
+                        <li class="album-listen-item"><a target="_blank" href="https://www.youtube.com/playlist?list=PLKe-Zuux9p9tJFGuAUCajji8ginGTnN2b"><div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="1000" data-aos-offset="0"><i class="fa-brands fa-youtube"></i></div></a></li>
+                        <li class="album-listen-item"><a target="_blank" href="https://open.spotify.com/intl-es/album/18NOKLkZETa4sWwLMIm0UZ?autoplay=true"><div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="1000" data-aos-offset="0"><i class="fa-brands fa-spotify"></i></div></a></li>
+                        <li class="album-listen-item"><a target="_blank" href="https://music.apple.com/ar/album/utopia/1699712635"><div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="1000" data-aos-offset="0"><i class="fa-solid fa-music"></i></div></a></li>
                     </ul>
                 </div>
-            </li>
+            </div>
         </ul>
     </main>
     
@@ -144,6 +196,10 @@
     <!---------->
 
     <script src="../js/bootstrap.bundle.min.js"></script>
-    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

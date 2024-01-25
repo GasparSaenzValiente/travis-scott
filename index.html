@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <meta name="description" content="Bienvenido al mundo de Travis Scott. Descubre la última música, noticias emocionantes y eventos exclusivos en nuestra página de inicio. Únete a la experiencia Travis Scott desde el primer clic.">
+    <meta name="keywords" content="Travis Scott, música, hip-hop, entretenimiento, noticias, conciertos">
     <!--BOOTSRAP-->
     <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <!--AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--CSS-->
     <link rel="stylesheet" href="./css/main.css">
     <!--Font Awesome-->
@@ -43,14 +47,15 @@
         <section class="overlay">
             <div>
                 <div class="row">
-                    <div class="col-md-6">
-                        <h1>TRAVIS SCOTT</h1>
+                    <h1>TRAVIS SCOTT</h1>
+                    <div class="col-md-8">
+                        
                         <div class="info">
                             <p>Con su estilo inconfundible, Scott redefine la música moderna, elevando cada nota a una experiencia única. Descubre la revolución musical de Travis Scott: más que un artista, una leyenda en constante evolución.</p>
                             <a class="cta-button" href="./pages/about.html">Ver más</a>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-4">
                         <img class="logo-cactus img-fluid" src="./img/cactusjacklogo.png" alt="">
                     </div>
                 </div>
@@ -84,7 +89,10 @@
         </div>
     </footer>
     <!---------->
-
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
