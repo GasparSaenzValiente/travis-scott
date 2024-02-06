@@ -4,6 +4,7 @@
 .bodymerch{
     background-color: rgb(102, 102, 102);
 }
+
 .product{
     background-color: grey;
     text-align: center;
@@ -12,6 +13,27 @@
     .tshirt{
         width: 10rem;
         aspect-ratio: 1/1;
-    }   
-}
+    }
 
+    button {
+        background-color: #522f23;
+        color: white;
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: #5f3d32;
+        }
+
+        &:focus {
+            outline: none;
+        }
+
+        &:active {
+            transform: translateY(1px);
+        }
+    }
+}
