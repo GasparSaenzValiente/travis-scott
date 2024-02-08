@@ -1,13 +1,19 @@
 /***************
       TOUR
 ***************/
-
+.bodytour{
+    background-color: #9e9e9d;
+}
 .main-tour{
     text-align: center;
     padding: 20px;
 
     h2{
         padding: 2rem;
+
+        @media (max-width: 426px) {
+            padding: 0.4rem;
+        }
     }
 
     .tour-dates{
@@ -16,22 +22,55 @@
         align-items: center;
 
         .concert-date {
-            border: 1px solid #ddd;
+            border: 1px solid #000000;
             padding: 15px;
             border-radius: 8px;
             width: 80%; 
             margin-bottom: 10px;
 
+            @media (max-width: 426px) {
+                padding: 0.4rem;
+            }
+
             .tour-ul{
                 display: flex;
                 justify-content: space-between;
                 list-style: none;
+
+                li{
+                    @media (max-width: 426px) {
+                        padding: 1rem;
+                        font-size: 0.8rem;
+                    }
+                    @media (max-width: 376px) {
+                        padding: 0.7rem;
+                        font-size: 0.76rem;
+                    }
+                    @media (max-width: 321px) {
+                        padding: 0.3rem;
+                        font-size: 0.7rem;
+                    }
+                }
             }
         }
 
         .concert-date.header {
             background-color: #333;
             color: white;
+
+            ul{
+                li{
+                    @media (max-width: 426px) {
+                        padding: 1rem;
+                        font-size: 0.94rem;
+                    }
+
+                    @media (max-width: 321px) {
+                        padding: 0.5rem;
+                        font-size: 0.8rem;
+                    }
+                }
+            }
         }
     }
 }

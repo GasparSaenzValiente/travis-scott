@@ -44,9 +44,29 @@
   padding: 0.7rem;
   justify-content: center;
 }
+@media (max-width: 426px) {
+  .footer .footer-navbar {
+    gap: 0.5rem;
+  }
+}
+@media (max-width: 321px) {
+  .footer .footer-navbar {
+    gap: 0.3rem;
+  }
+}
 .footer .footer-navbar a {
   text-decoration: none;
   color: black;
+}
+@media (max-width: 426px) {
+  .footer .footer-navbar a {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 321px) {
+  .footer .footer-navbar a {
+    font-size: 0.81rem;
+  }
 }
 .footer .footer-redes {
   display: flex;
@@ -62,6 +82,16 @@
   color: black;
   padding-bottom: 0.5rem;
   text-align: center;
+}
+@media (max-width: 426px) {
+  .footer .footer-copy p {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 321px) {
+  .footer .footer-copy p {
+    font-size: 0.7rem;
+  }
 }
 
 /**************
@@ -155,6 +185,16 @@ main section .tercerdiv .influencias .influencia img {
   border-radius: 3px;
   padding-bottom: 0.4rem;
 }
+@media (max-width: 426px) {
+  main section .tercerdiv .influencias {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 321px) {
+  main section .tercerdiv .influencias {
+    grid-template-columns: 1fr;
+  }
+}
 
 /***************
     CONTACTO
@@ -162,6 +202,11 @@ main section .tercerdiv .influencias .influencia img {
 .content-contacto {
   background-color: #c1c0c0;
   padding: 2rem;
+}
+@media (max-width: 426px) {
+  .content-contacto {
+    padding: 1.4rem;
+  }
 }
 .content-contacto .contact-wrapper {
   display: flex;
@@ -174,6 +219,11 @@ main section .tercerdiv .influencias .influencia img {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
+@media (max-width: 426px) {
+  .content-contacto .contact-wrapper .contact-form {
+    padding: 1.4rem;
+  }
+}
 .content-contacto .contact-wrapper .contact-form h2 {
   padding-bottom: 1rem;
   color: #5a3914;
@@ -182,6 +232,12 @@ main section .tercerdiv .influencias .influencia img {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
+}
+@media (max-width: 426px) {
+  .content-contacto .contact-wrapper .contact-form form .infopersonalcontacto input {
+    padding: 0.1rem;
+    width: 8rem;
+  }
 }
 .content-contacto .contact-wrapper .contact-form form .block {
   width: 100%;
@@ -259,8 +315,9 @@ main section .tercerdiv .influencias .influencia img {
   background-color: #9e9e9d;
 }
 
-.gallery-img-x {
+.gallery-img-X img {
   width: 100%;
+  height: auto;
 }
 
 /***************
@@ -366,6 +423,10 @@ main section .tercerdiv .influencias .influencia img {
 /***************
       TOUR
 ***************/
+.bodytour {
+  background-color: #9e9e9d;
+}
+
 .main-tour {
   text-align: center;
   padding: 20px;
@@ -373,24 +434,64 @@ main section .tercerdiv .influencias .influencia img {
 .main-tour h2 {
   padding: 2rem;
 }
+@media (max-width: 426px) {
+  .main-tour h2 {
+    padding: 0.4rem;
+  }
+}
 .main-tour .tour-dates {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .main-tour .tour-dates .concert-date {
-  border: 1px solid #ddd;
+  border: 1px solid #000000;
   padding: 15px;
   border-radius: 8px;
   width: 80%;
   margin-bottom: 10px;
+}
+@media (max-width: 426px) {
+  .main-tour .tour-dates .concert-date {
+    padding: 0.4rem;
+  }
 }
 .main-tour .tour-dates .concert-date .tour-ul {
   display: flex;
   justify-content: space-between;
   list-style: none;
 }
+@media (max-width: 426px) {
+  .main-tour .tour-dates .concert-date .tour-ul li {
+    padding: 1rem;
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 376px) {
+  .main-tour .tour-dates .concert-date .tour-ul li {
+    padding: 0.7rem;
+    font-size: 0.76rem;
+  }
+}
+@media (max-width: 321px) {
+  .main-tour .tour-dates .concert-date .tour-ul li {
+    padding: 0.3rem;
+    font-size: 0.7rem;
+  }
+}
 .main-tour .tour-dates .concert-date.header {
   background-color: #333;
   color: white;
+}
+@media (max-width: 426px) {
+  .main-tour .tour-dates .concert-date.header ul li {
+    padding: 1rem;
+    font-size: 0.94rem;
+  }
+}
+@media (max-width: 321px) {
+  .main-tour .tour-dates .concert-date.header ul li {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
 }/*# sourceMappingURL=main.css.map */
